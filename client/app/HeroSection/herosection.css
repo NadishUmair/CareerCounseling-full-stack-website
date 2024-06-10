@@ -1,0 +1,55 @@
+
+#herosection{
+
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./firstimg.jpg);;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+   color: white;
+ 
+   
+}
+#slider{
+    height: 85vh;
+    
+    overflow: hidden;
+}
+
+
+
+.slick-dots li button div.dot{
+    background-color: rgb(17, 171, 79) !important;
+    
+
+}
+#signupform{
+    z-index: 3;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.signupform input{
+    height: 2rem;
+    padding: 0.5rem;
+}
+
+/* .slick-dots li button  {
+   font-size: 12px;
+   color: rgb(252, 252, 252);
+   border: 1px solid blue;
+    
+  } */
+.slick-dots li button::before  {
+    
+   font-size: 12px;
+  
+   color: rgb(252, 252, 252);
+ 
+    
+  }
+  .slick-dots li.slick-active button:before{
+    
+    color: rgb(244, 244, 244);
+  }

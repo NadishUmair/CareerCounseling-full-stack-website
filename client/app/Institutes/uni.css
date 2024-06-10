@@ -1,0 +1,11 @@
+.search-opt{
+    height: 2rem; 
+}
+#searchUni{
+    background-color: #f6f7fa;
+    padding: 2rem;
+}
+#searchUni select:focus{
+   outline: none;
+   border: 0.1rem solid rgba(76, 154, 243, 0.701);
+}

@@ -1,0 +1,78 @@
+
+@keyframes spin {
+    0% {
+        transform: rotate(-25deg);
+    }
+    50% {
+        transform: rotate(25deg); 
+    }
+    100% {
+        transform: rotate(-25deg); 
+    }
+}
+
+
+.animated-blue{
+    animation: spin 8s  infinite ;
+}
+@keyframes   moveForwardBackward {
+    0%{
+        transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+    
+}
+.animated-yellow{
+   
+    animation: moveForwardBackward 15s infinite;
+}
+#mainform{
+    
+   
+    position: relative;
+   
+   
+  background-position: center;
+  background-size: 60%;
+  
+  background-repeat: no-repeat;
+}
+#contactform-section{
+   
+    
+    
+   z-index: 2;
+   background-color: rgb(255, 255, 255);
+
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+
+   
+  
+}
+#contactform-section .enteries{
+   border: none;
+    background-color: #F0F3F7;
+    border-radius: 20px;
+    padding: 0.9rem;
+}
+#contactform-section .enteries:focus{
+   outline: none;
+    border:0.1rem solid #92bbf1;
+    
+}
+
+
+  
+  .formbtn{
+    width: 100%;
+    padding: 0.7rem 0.8rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;
+  }
